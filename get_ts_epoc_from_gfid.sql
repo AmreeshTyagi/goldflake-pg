@@ -4,7 +4,7 @@
 
 CREATE OR REPLACE FUNCTION get_ts_epoc_from_gfid(
 	id bigint)
-    RETURNS timestamp without time zone
+    RETURNS bigint
     LANGUAGE 'sql'
 
     COST 100
